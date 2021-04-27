@@ -1,0 +1,29 @@
+programa
+{     
+     
+	funcao inicio()
+	{
+		real num1 ,num2 ,media 
+	
+		escreva("digite sua 1° nota: ")
+		leia(num1)
+
+		escreva("digite sua 2° nota: ")
+		leia(num2)
+		
+		limpa()
+
+		media = (num1 + num2) / 2
+		
+		se (media >= 7 )
+		{
+		   escreva ("Aprovado sua media é: ", media) 
+		}
+		   
+	
+          senao se(media < 7)
+          {
+       	   escreva ("Reprovado sua media é: ", media)
+          }    
+	}
+}
