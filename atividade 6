@@ -1,0 +1,30 @@
+programa
+{
+
+	funcao inicio()
+	{
+	
+		real num1, num2
+	
+		escreva("Escreva o 1° número: ")
+		leia(num1)
+
+		escreva("Escreva o 2° número: ")
+		leia(num2)
+
+		se (num1 > num2)
+		{
+			escreva("Primeiro é maior")
+		}
+
+		senao se (num2 > num1)
+		{
+			escreva("Segundo é maior")
+		}
+
+		senao
+		{
+			escreva("Números iguais")
+		}
+	}
+}
