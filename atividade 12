@@ -1,0 +1,53 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real num1, num2, num3, num4, num5, num6, num7, num8, num9, num10, soma
+		
+		escreva("Digite o 1° número: ")
+		leia(num1)
+		limpa()
+
+		escreva("Digite o 2° número: ")
+		leia(num2)
+		limpa()
+
+		escreva("Digite o 3° número: ")
+		leia(num3)
+		limpa()
+
+		escreva("Digite o 4° número: ")
+		leia(num4)
+		limpa()
+
+		escreva("Digite o 5° número: ")
+		leia(num5)
+		limpa()
+
+		escreva("Digite o 6° número: ")
+		leia(num6)
+		limpa()
+
+		escreva("Digite o 7° número: ")
+		leia(num7)
+		limpa()
+
+		escreva("Digite o 8° número: ")
+		leia(num8)
+		limpa()
+
+		escreva("Digite o 9° número: ")
+		leia(num9)
+		limpa()
+
+		escreva("Digite o 10° número: ")
+		leia(num10)
+		limpa()
+
+		soma = (num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10) 
+
+		escreva("A soma dos números digitados é: ", soma) 
+		
+	}
+}
