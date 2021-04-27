@@ -1,0 +1,23 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro num1, num2, troca
+		
+		escreva("Digite o 1° número: ")
+		leia(num1)
+
+		escreva("Digite o 2° número: ")
+		leia(num2)
+
+		troca = num1
+		num1 = num2
+		num2 = troca
+
+		escreva("O novo valor do 1° número é: ", num1, "\n")
+
+		escreva("O novo valor do 2° número é: ", num2)
+		
+	}
+}
