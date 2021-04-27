@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+		inteiro numero, um = 1
+
+		escreva("Digite um número superior a zero: ")
+		leia(numero)
+		limpa()
+		
+		enquanto (um <= numero)
+		{
+			
+			escreva(um, "\n")
+		  	
+		  	um = um + 1 
+		}
+	}
+}
