@@ -1,0 +1,23 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real valorCusto, margemAumento, precoVenda, porcentagem1, porcentagem2
+		
+		escreva("Digite o valor de custo do produto: ")
+		leia(valorCusto)
+
+		escreva("Digite a margem de aumento: ")
+		leia(margemAumento)
+
+		porcentagem1 = (margemAumento / 100)
+
+		porcentagem2 = (valorCusto * porcentagem1)
+
+		precoVenda = (valorCusto + porcentagem2)
+		
+
+		escreva("O preço de venda do produto é: ", precoVenda)
+	}
+}
