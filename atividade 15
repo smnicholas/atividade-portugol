@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real drone = 8190, ValorParcelas
+		inteiro parcelas
+		
+		escreva("Digite a quantidade de parcelas para a compra do drone (até 15x sem juros): ")
+		leia(parcelas)
+
+		
+		se (parcelas > 15)
+		{
+			escreva("Parcelas acima de 15x não são permitidas!!")
+		}
+
+		senao
+		{
+			ValorParcelas = 8190 / parcelas
+			escreva("Você dividiu o valor do drone em ", parcelas, " parcelas de ", ValorParcelas, " reais")
+		}
+	}
+}
