@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+		inteiro contador = 101
+		
+		enquanto (contador <= 110)
+		{
+			
+			escreva(contador, "\n")
+		  	
+		  	contador = contador + 1 
+		}
+	}
+}
