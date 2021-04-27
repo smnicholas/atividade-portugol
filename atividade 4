@@ -1,0 +1,57 @@
+programa
+{
+	
+	real numero1, numero2, numero3, soma1, soma2, soma3, soma4, soma5, soma6
+	
+	
+	funcao inicio()
+	{
+		escreva("Digite um valor: ")
+		leia(numero1)
+
+		escreva("Digite um valor (diferente do anterior): ")
+		leia(numero2)
+
+		escreva("Digite um valor (diferente dos anteriores): ")
+		leia(numero3)
+
+		/* numero 1 */
+		se (numero1 > numero2 e numero2 > numero3)
+		{
+			soma1 = numero1 + numero2
+			escreva("Os maiores números digitados o 1° e o 2°, e a soma dos dois é: ", soma1)
+		}
+
+		senao se (numero1 > numero3 e numero3 > numero2)
+		{
+			soma2 = numero1 + numero3
+			escreva("Os maiores números digitados foram o 1° e o 3°, e a soma dos dois é: ", soma2)
+		}
+
+		/* numero 2 */
+		senao se (numero2 > numero1 e numero1 > numero3)
+		{
+			soma3 = numero1 + numero2
+			escreva("Os maiores números digitados foram o 1° e o 2°, e a soma dos dois é: ", soma3)
+		}
+
+		senao se (numero2 > numero3 e numero3 > numero1)
+		{
+			soma4 = numero2 + numero3
+			escreva("Os maiores números digitados foram o 2° e o 3°, e a soma dos dois é: ", soma4)
+		}
+
+		/* numero 3 */
+		senao se (numero3 > numero1 e numero1 > numero2)
+		{
+			soma5 = numero1 + numero3
+			escreva("Os maiores números digitados foram o 1° e o 3°, e a soma dos dois é: ", soma5)
+		}
+
+		senao se (numero3 > numero2 e numero2 > numero1)
+		{
+			soma6 = numero2 + numero3
+			escreva("Os maiores números digitados foram o 2° e o 3°, e a soma dos dois é: ", soma6)
+		}
+	}
+}
